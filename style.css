@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 隱藏滾動條，防止手機畫面滑動 */
+  background-color: #f5f5fa; /* 設定背景底色 */
+  touch-action: none; /* 防止手機下拉刷新與滑動手勢 */
+}
+
+canvas {
+  display: block;
+}
